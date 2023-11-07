@@ -44,20 +44,22 @@ Data exposed by the API is extracted by the `data-extraction` project located in
 
 When getting started with open source, it's important to note that new features and bug fixes are developed on new branches, which for this project follow a specific naming convention,  instead of contributing straight to the main/master branch. Setting this up can be accomplished in a few short steps. 
 
-When interested in contrubuting to FFXIV Teamcraft, start by Forking main repository via tha `Fork` button on the GitHub homepage. 
+When interested in contributing to FFXIV Teamcraft, start by forking the main repository via tha `Fork` button on the GitHub homepage. 
 
 Then, clone the repository on your local machine via the HTTPS link that is displayed after clicking the green `Code` button on your local repository.
 
 After the repository has been cloned, create a new branch via the Git command `git branch <branchname>` using the format described below. 
 
-Finally, checkout your new branch using the command `git checkout <branchname>`
+Finally, checkout your new branch using the command `git checkout <branchname>`.
 
 ### Branch Names
 
 When contributing to main repository, you'll notice that branch names follow a given pattern,
 this pattern is the following: `<branch-type>/<short-description>`.
 
-Example: `feat/commission-history-tab` would be a branch that adds a commission history tab.
+Example: `feat/commission-history-tab` would be a branch that adds a commission history tab. 
+
+More `<branch-type>` examples are listed in the Commit Messages section.
 
 We're using gitflow for this, more information on [https://github.com/nvie/gitflow](https://github.com/nvie/gitflow)
 
